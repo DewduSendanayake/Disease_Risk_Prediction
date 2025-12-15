@@ -69,80 +69,22 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                        Disease Risk Prediction System                    │
+│                        Disease Risk Prediction System                   │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
-│  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐     │
-│  │   🎨 Frontend   │    │   🔧 Backend    │    │  🧠 ML Pipeline │     │
-│  │   React + Vite  │◄──►│     Flask       │◄──►│    LightGBM     │     │
-│  │                 │    │                 │    │                 │     │
-│  │ ▪ Multi-step UI │    │ ▪ REST API      │    │ ▪ KNN Imputer   │     │
-│  │ ▪ Form Wizard   │    │ ▪ CORS Handler  │    │ ▪ StandardScaler│     │
-│  │ ▪ Risk Gauge    │    │ ▪ Data Validator│    │ ▪ OneHotEncoder │     │
-│  │ ▪ Tailwind CSS  │    │ ▪ Model Loader  │    │ ▪ PCA Transform │     │
-│  └─────────────────┘    └─────────────────┘    └─────────────────┘     │
+│  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐      │
+│  │   🎨 Frontend   │    │   🔧 Backend   │    │ 🧠 ML Pipeline │      │
+│  │   React + Vite  │◄──►│     Flask       │◄──►│    LightGBM     │      │
+│  │                 │    │                 │    │                 │      │
+│  │ ▪ Multi-step UI │    │ ▪ REST API      │    │ ▪ KNN Imputer   │      │
+│  │ ▪ Form Wizard   │    │ ▪ CORS Handler  │    │ ▪ StandardScaler│      │
+│  │ ▪ Risk Gauge    │    │ ▪ Data Validator│    │ ▪ OneHotEncoder │      │
+│  │ ▪ Tailwind CSS  │    │ ▪ Model Loader  │    │ ▪ PCA Transform │      │
+│  └─────────────────┘    └─────────────────┘    └─────────────────┘      │
 │                                                                         │
-│         📱 Responsive            🐳 Docker Ready          📊 29 PCA    │
-│                                                           Components    │
+│ 📱 Responsive          🐳 Docker Ready          📊 29 PCA Components   │
+│                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 📁 Project Structure
-
-```
-disease_risk_prediction/
-│
-├── 🎨 client/                          # Frontend Application
-│   ├── 📁 src/
-│   │   ├── App.jsx                    # Main React component (855 lines)
-│   │   ├── main.jsx                   # React entry point
-│   │   ├── index.css                  # Global styles
-│   │   └── validate_fields.js         # Field validation utility
-│   │
-│   ├── index.html                     # HTML template
-│   ├── package.json                   # NPM dependencies
-│   ├── vite.config.js                 # Vite configuration
-│   └── eslint.config.js               # ESLint configuration
-│
-├── 🔧 server/                          # Backend Application
-│   ├── 📁 models/                     # Trained ML Models & Preprocessors
-│   │   ├── final_diseased_prediction_model_lgbm_tuned.joblib  # ~2.2MB
-│   │   ├── standard_scaler.joblib
-│   │   ├── one_hot_encoder.joblib
-│   │   ├── ordinal_encoder.joblib
-│   │   ├── knn_imputer.joblib         # ~3.6MB
-│   │   ├── pca_90_variance.joblib
-│   │   ├── label_encoder.joblib
-│   │   └── final_features_list.json
-│   │
-│   ├── 📁 notebook/                   # Jupyter Notebooks
-│   │   └── FDM_Mini_Project_correct.ipynb
-│   │
-│   ├── 📁 tests/                      # Test Utilities
-│   │   ├── test_api.py                # API endpoint testing
-│   │   ├── test_full_prediction.py    # Full pipeline testing
-│   │   ├── test_preprocess.py         # Preprocessing testing
-│   │   ├── debug_scaler.py            # Scaler debugging
-│   │   └── debug_onehot.py            # OneHot debugging
-│   │
-│   ├── app.py                         # Flask application entry
-│   ├── config.py                      # Configuration & constants
-│   ├── preprocessor.py                # ML preprocessing pipeline
-│   ├── train_and_save_preprocessors.py # Model training script
-│   ├── requirements.txt               # Python dependencies
-│   ├── Dockerfile                     # Docker configuration
-│   └── railway.json                   # Railway deployment config
-│
-├── 📁 models/                          # Shared model resources
-│   └── final_features_list.json
-│
-├── 📓 FDM_Mini_Project_Best_Model.ipynb   # Main ML notebook (~1.2MB)
-├── 📋 test_summary.html               # Test results summary
-├── 📄 LICENSE                         # MIT License
-├── 📖 README.md                       # This file
-└── 🙈 .gitignore                      # Git ignore rules
 ```
 
 ---
