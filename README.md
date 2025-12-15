@@ -1,5 +1,3 @@
-
-
 <h1 align="center">🩺 Disease Risk Prediction System</h1>
 
 <p align="center">
@@ -8,7 +6,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/🏥-Disease%20Risk%20Prediction-4F46E5?style=for-the-badge&labelColor=white" alt="Disease Risk Prediction"/>
 </p>
----
+
 
 ## 🌟 Overview
 
