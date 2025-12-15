@@ -732,11 +732,13 @@ copies of the Software...
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Authors
 
 <p align="center">
+  <strong>Dewdu Sendanayake</strong><br>
   <strong>Dulhara Kaushalya</strong><br>
-  <em>Full Stack Developer & ML Enthusiast</em>
+  <strong>Senuvi Layathma</strong><br>
+  <strong>Uvindu Seneviratne</strong><br>
 </p>
 
 ---
