@@ -8,28 +8,6 @@
   <strong>An AI-powered full-stack application that predicts disease risk using advanced machine learning</strong>
 </p>
 
-<p align="center">
-  <a href="#-features"><img src="https://img.shields.io/badge/✨-Features-blue?style=flat-square" alt="Features"/></a>
-  <a href="#-quick-start"><img src="https://img.shields.io/badge/🚀-Quick%20Start-green?style=flat-square" alt="Quick Start"/></a>
-  <a href="#-api-reference"><img src="https://img.shields.io/badge/📡-API-orange?style=flat-square" alt="API"/></a>
-  <a href="#-machine-learning"><img src="https://img.shields.io/badge/🤖-ML%20Pipeline-purple?style=flat-square" alt="ML Pipeline"/></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Flask-Latest-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
-  <img src="https://img.shields.io/badge/LightGBM-ML%20Model-9ACD32?style=for-the-badge&logo=lightgbm&logoColor=white" alt="LightGBM"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-4.1.14-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
-  <img src="https://img.shields.io/badge/Vite-7.1.7-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/license/dulhara79/disease_risk_prediction?style=flat-square" alt="License"/>
-  <img src="https://img.shields.io/badge/Deployed-HuggingFace%20Spaces-FFD21E?style=flat-square&logo=huggingface" alt="Deployed"/>
-  <img src="https://img.shields.io/badge/Containerized-Docker%20Ready-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-</p>
-
 ---
 
 ## 🌟 Overview
@@ -745,15 +723,29 @@ copies of the Software...
 
 <div align="center">
 
-### ⭐ Star this repo if you found it helpful!
+<p align="center">
+  <a href="#-features"><img src="https://img.shields.io/badge/✨-Features-blue?style=flat-square" alt="Features"/></a>
+  <a href="#-quick-start"><img src="https://img.shields.io/badge/🚀-Quick%20Start-green?style=flat-square" alt="Quick Start"/></a>
+  <a href="#-api-reference"><img src="https://img.shields.io/badge/📡-API-orange?style=flat-square" alt="API"/></a>
+  <a href="#-machine-learning"><img src="https://img.shields.io/badge/🤖-ML%20Pipeline-purple?style=flat-square" alt="ML Pipeline"/></a>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Flask-Latest-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+  <img src="https://img.shields.io/badge/LightGBM-ML%20Model-9ACD32?style=for-the-badge&logo=lightgbm&logoColor=white" alt="LightGBM"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-4.1.14-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/Vite-7.1.7-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/dulhara79/disease_risk_prediction?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/Deployed-HuggingFace%20Spaces-FFD21E?style=flat-square&logo=huggingface" alt="Deployed"/>
+  <img src="https://img.shields.io/badge/Containerized-Docker%20Ready-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+</p>
 **Made with ❤️ for Data Mining & Healthcare AI**
 
 ---
-
-<p align="center">
-  <strong>⚕️ Important Disclaimer ⚕️</strong><br>
-  <em>This application is for educational and research purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare professionals for medical decisions.</em>
-</p>
 
 </div>
