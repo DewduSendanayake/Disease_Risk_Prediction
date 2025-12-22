@@ -1,4 +1,4 @@
-<h1 align="center">🩺 Disease Risk Prediction System</h1>
+<h1 align="center">Disease Risk Prediction System 🩺</h1>
 
 <p align="center">
   <strong>An AI-powered full-stack application that predicts disease risk using advanced machine learning</strong>
